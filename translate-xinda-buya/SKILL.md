@@ -1,6 +1,7 @@
 ---
 name: translate-xinda-buya
 description: "Translate text in a Chinese 信达不雅 style: faithful to the source meaning, fluent and idiomatic in the target language, but deliberately plain, blunt, earthy, slangy, or vulgar when the source tone or user request calls for it. Use when the user asks for 信达不雅, 粗口翻译, 接地气翻译, 俗一点/脏一点但准确, meme/slang/profanity translation, or a translation that avoids elegant/literary polishing."
+license: MIT
 ---
 
 # 信达不雅翻译

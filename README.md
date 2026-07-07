@@ -19,7 +19,30 @@
 
 这个仓库采用可安装 skill 子目录布局，真正的 skill 在 `translate-xinda-buya/` 目录下。
 
-使用 Codex skill installer 时指定子路径：
+推荐使用 `npx skills`，它能安装到 Codex、Claude Code、Cursor、GitHub Copilot 等支持 Agent Skills 的工具：
+
+```bash
+npx skills add CheshireJCat/translate-xinda-buya \
+  --skill translate-xinda-buya \
+  --agent codex \
+  -g
+```
+
+如果你使用 GitHub CLI，也可以通过 `gh skill` 安装，并指定 Codex 和用户级作用域：
+
+```bash
+gh skill install CheshireJCat/translate-xinda-buya translate-xinda-buya \
+  --agent codex \
+  --scope user
+```
+
+安装前预览：
+
+```bash
+gh skill preview CheshireJCat/translate-xinda-buya translate-xinda-buya
+```
+
+也可以使用 Codex skill installer，并指定子路径：
 
 ```bash
 python3 install-skill-from-github.py \
