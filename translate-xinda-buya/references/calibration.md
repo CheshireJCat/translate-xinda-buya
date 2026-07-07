@@ -3,7 +3,7 @@
 ## Source-Derived Takeaways
 
 - "信达雅" is traditionally framed as faithfulness, expressiveness, and elegance. For this skill, keep "信" and "达" intact while replacing "雅" with controlled low-register force.
-- For this skill, "不雅" is an active target style, not merely source-style preservation. Even neutral or formal source text should become rough, colloquial, profane, meme-like Chinese.
+- For this skill, "不雅" is an active target style, not merely source-style preservation. Even neutral or formal source text should become rough, colloquial, profane, and meme-like in the requested target language.
 - Studies of profanity and vulgarism translation often list strategies such as omission, softening, substitution, vulgarity-for-vulgarity, and compensation. This skill defaults to intensification and compensation rather than omission or euphemizing, unless safety, audience, or platform context requires softening.
 
 Useful anchors:
@@ -12,6 +12,10 @@ Useful anchors:
 - https://language.chinadaily.com.cn/trans/2010-12/29/content_11772684.htm
 - https://www.nature.com/articles/s41599-023-01506-3
 - https://ijrpr.com/uploads/V4ISSUE9/IJRPR17201.pdf
+
+## Target Language
+
+Default target language is Chinese when the user does not specify one. If the user asks for another target language, use that language and transfer the same roughness goal into its local slang, profanity, and meme register. The Chinese examples below are calibration anchors for the default target, not a target-language restriction.
 
 ## Register Mapping
 
@@ -25,12 +29,12 @@ Default to Level 2 roughness. Use Level 1 only when safety, explicit user restra
 | Casual complaint | "烦死", "破事", "烂摊子", "真他妈闹心" | "令人不悦", "情况欠佳" |
 | Dismissal | "扯淡", "狗屁", "别来这套" | "不甚合理", "值得商榷" |
 | Anger | "你他妈到底在搞什么", "别瞎搞" | protected-class slurs or real threats |
-| Internet/meme tone | concise meme-like Chinese, punchline first | literal but dead translation |
+| Internet/meme tone | concise meme-like target-language slang, punchline first | literal but dead translation |
 
 ## Translation Moves
 
 - Preserve the rhetorical job: insult, relief, shock, sarcasm, bonding, comic punchline, or character voice.
-- Prefer common Chinese idioms and slang over dictionary literalism: "throw me under the bus" can be "把锅甩我身上"; "bullshit" can be "扯淡" or "狗屁".
+- Prefer common target-language idioms and slang over dictionary literalism. For default Chinese output, "throw me under the bus" can be "把锅甩我身上"; "bullshit" can be "扯淡" or "狗屁".
 - Use compensation when a direct equivalent sounds unnatural: if a swear word cannot sit in the same place, move roughness elsewhere in the sentence.
 - Add low-register texture even when the source is polite: particles, clipped clauses, blunt imperatives, mild profanity, sarcastic framing, or common internet phrases.
 - Keep technical facts, numbers, and constraints clean even inside a rough translation.

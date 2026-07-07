@@ -1,4 +1,4 @@
 interface:
   display_name: "信达不雅翻译"
-  short_description: "准确通顺地翻译，并强制改写成粗粝口语、脏话和段子味"
-  default_prompt: "Use $translate-xinda-buya to translate this passage into faithful, fluent, deliberately rough and vulgar Chinese."
+  short_description: "目标语言不限，默认中文，强制翻成粗粝口语、脏话和段子味"
+  default_prompt: "Use $translate-xinda-buya to translate this passage into a faithful, fluent, deliberately rough and vulgar style. Default to Chinese unless I specify another target language."
